@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.Logo {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.LogoSite{
+    width: 150px;
+    height: 50px;
+    margin-right: 3VW;
+}
+
+body {
+    background-color: rgb(228, 195, 228);
+    font-family: "Inter", sans-serif;
+
+    /* Fundo do Site */
+    background-image: url("assets/poster_Braking-Bad.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    ;
+}
+
+nav {
+    background-color: rgba(26, 26, 26, 0.24);
+    /* justify-content: space-around; */
+    align-items: center;
+    display: flex;
+    height: 8vh;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    transition: 0.4s;
+}
+
+a:hover {
+    font-size: 1.5vw;
+    opacity: 1;
+    color: white;
+}
+
+ul {
+    margin-top: 25%;
+    letter-spacing: 3px;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    flex-direction: column;
+    margin-left: 0px;
+}
