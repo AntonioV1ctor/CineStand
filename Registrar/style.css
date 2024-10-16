@@ -1,4 +1,3 @@
-
 * {
     text-decoration: none;
     font-family: "Poppins", sans-serif;
@@ -61,74 +60,83 @@ body {
 
 input{color: #000000;}
 
+/* Não mexer no código de cima dessa mensagem */
 
-.Login{
-    text-align: left;
-    margin-top: 10%;
-    margin-left: 4%;
+.email,.senha{
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 20vw;
+    height: 3vh;
+    margin-top: 18px;
+    
 }
 
-.Enviar{
+.nome{
+    margin-top: 2vw;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 20vw;
+    height: 3vh;
+}
+
+.numero-telefone{
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 20vw;
+    height: 3vh;
+}
+
+.registrar{
     background-color: rgb(207, 0, 0);
     transition: 1s;
     border-radius: 6px;
-    margin-top: 18px;
+    margin-top: 0.5vw;
     font-size: 100%;
     cursor: pointer;
     color: white;
-    width: 20.6vw;
+    width: 21.8vw;
     border: none;
     height: 6vh;
-     
 }
 
-.Enviar:hover{
+.registrar:hover{
     box-shadow: 0px 0px 5px rgb(255, 0, 0);
     background-color: red;
     scale: 105%;
 }
 
-.Email{
-    font-size: 15px;
-    width: 20vw;
-    height: 5vh;
-    
+#opcional{  
+    margin-left: 4%;
+    text-align: left;
+    margin-top: 5px;
+    color: red;
+    font-size: 10px;
 }
 
-.Senha{
-    margin-top: 20px;
-    font-size: 15px;
-    width: 20vw;
-    height: 5vh;
-    
-}
 
-.Codigo{
-    background-color: rgb(104, 104, 104);
-    transition: 0.5s ease;
-    border-radius: 6px;
-    font-size: 100%;
-    cursor: pointer;
-    color: white;
-    width: 20.6vw;
-    border: none;
-    height: 6vh;
-}
-
-.Codigo:hover{
-    box-shadow: 0px 0px 5px rgb(156, 156, 156);
-    scale: 105%;
-}
-
-#ou{
-    font-size: 18px;
+.termos{
+    color:rgb(0, 26, 255)
 }
 
 .lembre-se{
     margin-left: 1vw;
     text-align: left;
+    margin-top: 0.5vw;
 }
 
-input{
-    color: #000000;
+.titulo{
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 4.5%;
 }
+.check{
+    margin-right: 10px;
+}
+
+input {
+    padding: 0;
+    margin: 0;
+  }

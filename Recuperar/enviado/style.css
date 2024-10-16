@@ -1,13 +1,18 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
 
-* {
+
+h1,h2,h3,p,label{
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     color: white;
-    padding: 0%;
-    margin: 0%;
-}
+    text-align: justify;
+  }
+
 
 
 .Logo-icon {
@@ -33,42 +38,38 @@ nav {
     height: 9vh;
 }
 
-body {
-    background-image: url("../assets/Icon-Logo/Login-wallpaper-desktop.png");
+
+
+body{
+    background-image: url("../../assets/Icon-Logo/Login-wallpaper-desktop.png");
     background-repeat: no-repeat;
     background-color: #000000;
     background-size: cover;
 
 }
 
+
 .container {
-    transform: translate(-39%, -50%);
+    transform: translate(-35%, -50%);
     position: absolute;
     left: 50%;
     top: 50%;
-}
+  }
 
-.bloco {
+  .bloco {
     border: 3px solid #ffffff1d;
     backdrop-filter: blur(3px);
     border-radius: 10px;
-    text-align: center;
     padding: 10px;
     opacity: 0.9;
-    width: 100%;
-    
+    width: 67%;
 }
 
-input{color: #000000;}
 
-
-.Login{
-    text-align: left;
-    margin-top: 10%;
-    margin-left: 4%;
-}
-
-.Enviar{
+.bnt{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
     background-color: rgb(207, 0, 0);
     transition: 1s;
     border-radius: 6px;
@@ -79,56 +80,19 @@ input{color: #000000;}
     width: 20.6vw;
     border: none;
     height: 6vh;
-     
 }
 
-.Enviar:hover{
+.bnt:hover{
     box-shadow: 0px 0px 5px rgb(255, 0, 0);
     background-color: red;
     scale: 105%;
 }
 
-.Email{
-    font-size: 15px;
-    width: 20vw;
-    height: 5vh;
-    
+.botao{
+    text-align: center;
 }
 
-.Senha{
-    margin-top: 20px;
-    font-size: 15px;
-    width: 20vw;
-    height: 5vh;
-    
-}
-
-.Codigo{
-    background-color: rgb(104, 104, 104);
-    transition: 0.5s ease;
-    border-radius: 6px;
-    font-size: 100%;
-    cursor: pointer;
-    color: white;
-    width: 20.6vw;
-    border: none;
-    height: 6vh;
-}
-
-.Codigo:hover{
-    box-shadow: 0px 0px 5px rgb(156, 156, 156);
-    scale: 105%;
-}
-
-#ou{
-    font-size: 18px;
-}
-
-.lembre-se{
-    margin-left: 1vw;
-    text-align: left;
-}
-
-input{
-    color: #000000;
+a{
+    color: blue;
+    text-decoration: none;
 }

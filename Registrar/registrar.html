@@ -16,40 +16,41 @@
 
 <body>
     <nav>
-        <img class="Logo-icon"  src="../assets/Icon-Logo/icon.ico" alt="Logo">
+        <img class="Logo-icon" src="../assets/Icon-Logo/icon.ico" alt="Logo">
         <h1 class="Logo">CineStand</h1>
-        
     </nav>
     <main>
         <div class="container">
             <div class="bloco">
-                <div class="Login">
-                    <h1>Entrar</h1>
+                <div class="titulo">
+                    <h1>Registrar</h1>
                 </div>
 
                 <div>
-                    <input class="Email" type="email" placeholder="Email ou número de celular">
+                    <input class="nome" type="text" placeholder="Nome"/>
                 </div>
 
                 <div>
-                    <input class="Senha" type="password" placeholder="Senha">
+                    <input class="email" type="text" placeholder="Email"/>
                 </div>
 
                 <div>
-                    <a href="../index.html"><input class="Enviar" type="submit" value="Entrar"></a>
+                    <p id="opcional">*Opcional</p>
+                    <input class="numero-telefone" type="number" placeholder="Numero de telefone"/>
                 </div>
-
-                <h1 id="ou">OU</h1>
 
                 <div>
-                    <input class="Codigo" type="submit"  value="Usar um código de acesso">
+                    <input class="senha" type="password" placeholder="Senha"/>
                 </div>
-                <a href="../Recuperar/recuperar.html"><p>Esqueceu a senha?</p></a>
+
                 <div class="lembre-se">
-                    <input style="margin-right: 5px;" type="checkbox" ><label>Lembre-se de mim</label>
-                    <p style="margin-left: 0.1vw;">Novo por aqui? <a href="../Registrar/registrar.html"> <strong style="color: rgb(55, 55, 255);">Assine agora</strong></a></p>
+                    <input class="check" type="checkbox"><label>Li e aceito os <a class="termos" href="">Termos de
+                            Uso</a></label><br>
                 </div>
-                
+
+                <div>
+                    <a href="../index.html"><input class="registrar" type="submit" value="Registrar"></a>
+                </div>
             </div>
         </div>
     </main>

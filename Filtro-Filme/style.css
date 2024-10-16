@@ -111,6 +111,11 @@ li:hover {
     line-height: 70px;
 }
 
+.Subtitulo-Serie{
+    margin-left: 4px;
+    font-size: 30px;
+}
+
 .Detalhes {
     margin-left: 0.3vw;
     font-size: 15px;
@@ -145,7 +150,7 @@ li:hover {
 }
 
 .like {
-    background-image: url("assets/Icon-Logo/like.png");
+    background-image: url("../assets/Icon-Logo/like.png");
     background-size: 20px 20px;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +168,7 @@ li:hover {
 }
 
 .deslike {
-    background-image: url("assets/Icon-Logo/deslike.png");
+    background-image: url("../assets/Icon-Logo/deslike.png");
     background-size: 20px 20px;
     background-position: center;
     background-repeat: no-repeat;
@@ -190,10 +195,10 @@ li:hover {
 }
 
 @keyframes animacao {
-    00% {background-image: url("assets/Series/bracking-bad.jpg");}
-    30% {background-image: url("assets/Series/bracking-bad2.jpg");}
-    60% {background-image: url("assets/Series/breaking-bad3.jpg");}
-    100% {background-image: url("assets/Series/brakinbad-4.jpg");}
+
+    00% {background-image: url("../assets/Filmes/kingsman.webp");}
+    50% {background-image: url("../assets/Filmes/kingsman2.webp");}
+    100% {background-image: url("../assets/Filmes/kingsman3.webp");}
 }
 
 .container1 {
@@ -232,3 +237,4 @@ li:hover {
     scale: 110%;
 
 }
+
