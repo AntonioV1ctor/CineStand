@@ -38,13 +38,14 @@ body {
 /* Código principal abaixo */
 
 ul {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     font-size: 19px;
     transition: 1s;
-    display: flex;
-    gap: 40px;
+    
+    
 }
 
 li:hover {
@@ -70,13 +71,24 @@ li:hover {
     background-color: #202020dc;
     color: #ffffff;
     height: 25px;
-    width: 15vw;
+    width: 10vw;
+}
+
+section{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
 }
 
 .container2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
     border: 1px solid rgba(255, 255, 255, 0.39);
     margin-right: 3vw;
     margin-left: 3vw;
+    gap: 15px;
 }
 
 .series-maratonar {
@@ -87,10 +99,12 @@ li:hover {
 
 /* Séries para Maratonar */
 #a1 {
+    
     transition: 2s ease;
     cursor: pointer;
-    width: 17.6vw;
-    margin: 5px;
+    width: 17vw;
+    
+    
 }
 
 #a1:hover {
