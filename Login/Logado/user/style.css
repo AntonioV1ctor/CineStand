@@ -1,4 +1,5 @@
 * {
+    
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -23,6 +24,7 @@
 .Logo {
     text-align: center;
 }
+
 nav {
     align-items: center;
     gap: 10px;
@@ -33,10 +35,10 @@ nav {
 }
 
 body {
-    background-image: url("../assets/Icon-Logo/Login-wallpaper-desktop.png");
     background-repeat: no-repeat;
     background-color: #000000;
     background-size: cover;
+    
 
 }
 
@@ -55,74 +57,101 @@ body {
     padding: 10px;
     opacity: 0.9;
     width: 100%;
-    
+
 }
 
-input{color: #000000;}
-
-/* Não mexer no código de cima dessa mensagem */
-
-.email,.senha{
-    padding: 10px;
-    border-radius: 3px;
-    font-size: 15px;
-    width: 20vw;
-    height: 3vh;
-    margin-top: 18px;
-    
-}
-
-.nome{
-    padding: 10px;
-    border-radius: 3px;
-    font-size: 15px;
-    width: 20vw;
-    height: 3vh;
+input {
+    color: #000000;
 }
 
 
+.Login {
+    text-align: center;
 
-.registrar{
+}
+
+.Enviar {
     background-color: rgb(207, 0, 0);
-    transition: 1s;
+    transition: 0.4s;
     border-radius: 6px;
-    margin-top: 0.5vw;
+    margin-top: 18px;
     font-size: 100%;
     cursor: pointer;
     color: white;
-    width: 21.8vw;
+    width: 20vw;
+    border: none;
+    height: 6vh;
+
+}
+
+.Enviar:hover {
+    box-shadow: 0px 0px 5px rgb(255, 0, 0);
+    background-color: red;
+    scale: 102%;
+}
+
+.email {
+    margin-top: 1vw;
+    display: flex;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: white;
+    height: 3.4vw;
+}
+
+.senha {
+    display: flex;
+    height: 3.4vw;
+    margin-top: 1vw;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#a1 {
+    margin-top: 10px;
+    color: #000000;
+}
+
+#a2{
+    color: #000000;
+    margin-top: 0px;
+    font-size: 2vw;
+}
+
+.Codigo {
+    background-color: rgb(104, 104, 104);
+    transition: 0.5s ease;
+    border-radius: 6px;
+    font-size: 100%;
+    cursor: pointer;
+    color: white;
+    width: 20.6vw;
     border: none;
     height: 6vh;
 }
 
-.registrar:hover{
-    box-shadow: 0px 0px 5px rgb(255, 0, 0);
-    background-color: red;
+.Codigo:hover {
+    box-shadow: 0px 0px 5px rgb(156, 156, 156);
     scale: 105%;
 }
 
-
-
-.termos{
-    color:rgb(0, 26, 255)
+#ou {
+    font-size: 18px;
 }
 
-.lembre-se{
+.lembre-se {
     margin-left: 1vw;
     text-align: left;
-    margin-top: 0.5vw;
-}
-
-.titulo{
-    text-align: left;
-    margin-top: 10%;
-    margin-left: 4.5%;
-}
-.check{
-    margin-right: 10px;
 }
 
 input {
-    padding: 0;
-    margin: 0;
-  }
+    color: #000000;
+}
+
+.profile {
+    width: 12vw;
+    height: 14vw;
+    border: 5px solid white;
+
+}
