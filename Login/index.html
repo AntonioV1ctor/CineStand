@@ -16,9 +16,9 @@
 
 <body>
     <nav>
-        <img class="Logo-icon"  src="../assets/Icon-Logo/icon.ico" alt="Logo">
+        <img class="Logo-icon" src="../assets/Icon-Logo/icon.ico" alt="Logo">
         <h1 class="Logo">CineStand</h1>
-        
+
     </nav>
     <main>
         <div class="container">
@@ -26,30 +26,27 @@
                 <div class="Login">
                     <h1>Entrar</h1>
                 </div>
+                <form action="Logado/logado.html">
+                    <div>
+                        <input required class="Email" type="email" placeholder="Email ou número de celular">
+                    </div>
 
-                <div>
-                    <input class="Email" type="email" placeholder="Email ou número de celular">
-                </div>
+                    <div>
+                        <input required class="Senha" type="password" placeholder="Senha">
+                    </div>
 
-                <div>
-                    <input class="Senha" type="password" placeholder="Senha">
-                </div>
-
-                <div>
-                    <a href="../index.html"><input class="Enviar" type="submit" value="Entrar"></a>
-                </div>
-
-                <h1 id="ou">OU</h1>
-
-                <div>
-                    <input class="Codigo" type="submit"  value="Usar um código de acesso">
-                </div>
-                <a href="../Recuperar/recuperar.html"><p>Esqueceu a senha?</p></a>
-                <div class="lembre-se">
-                    <input style="margin-right: 5px;" type="checkbox" ><label>Lembre-se de mim</label>
-                    <p style="margin-left: 0.1vw;">Novo por aqui? <a href="../Registrar/registrar.html"> <strong style="color: rgb(55, 55, 255);">Assine agora</strong></a></p>
-                </div>
-                
+                    <div>
+                        <a><input class="Enviar" type="submit" value="Entrar"></a>
+                    </div>
+                    <a href="../Recuperar/recuperar.html">
+                        <p style="margin-top: 1vw;">Esqueceu a senha?</p>
+                    </a>
+                    <div class="lembre-se">
+                        <input style="margin-right: 5px; margin-top: 1vw;" type="checkbox"><label>Lembre-se de mim</label>
+                        <p style="margin-left: 0.1vw;">Novo por aqui? <a href="../Registrar/registrar.html"> <strong
+                                    style="color: rgb(55, 55, 255);">Assine agora</strong></a></p>
+                    </div>
+                </form>
             </div>
         </div>
     </main>

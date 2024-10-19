@@ -125,7 +125,7 @@ li:hover {
 }
 
 .box-series{
-    background-image: url("assets/Series/brakinbad-4.jpg");
+    background-image: url("../../../assets/Filmes/kingsman.webp");
     background-size:cover;
     flex-direction: column;
     width: 93vw;

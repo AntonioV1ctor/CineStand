@@ -125,7 +125,7 @@ li:hover {
 }
 
 .box-series{
-    background-image: url("assets/Series/brakinbad-4.jpg");
+    background-image: url("../../assets/Series/brakinbad-4.jpg");
     background-size:cover;
     flex-direction: column;
     width: 93vw;
@@ -205,6 +205,20 @@ strong{
     filter: drop-shadow(20px  0px 10px black);
     box-shadow: 0 0 20px 20px rgba(0,0,0,0.5);
     
+}
+
+.icone-user{
+    background-image: url("../../assets/Icon-Logo/icone-user.jpg");
+    background-size: cover;
+    border: 2px solid white;
+    height: 3vw;
+    width: 3vw;
+    cursor: pointer;
+    transition: 0.5%;
+}
+
+.icone-user:hover{
+    scale: 105%;
 }
 
 @media (max-height:1000px){

@@ -125,7 +125,7 @@ li:hover {
 }
 
 .box-series{
-    background-image: url("assets/Series/brakinbad-4.jpg");
+    background-image: url("../../../assets/Series/dexter-banner.jpeg");
     background-size:cover;
     flex-direction: column;
     width: 93vw;
@@ -136,6 +136,7 @@ li:hover {
 
 .titulo-serie{
     margin-top:1%;
+    width: 35vw;
 
 }
 
